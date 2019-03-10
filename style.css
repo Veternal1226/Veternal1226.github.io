@@ -17,7 +17,7 @@ p{
   border-style: outset;
 }
 
-ul.a{
+ul{
   display:inline-block;
   list-style-type: square;
   text-decoration: underline;
