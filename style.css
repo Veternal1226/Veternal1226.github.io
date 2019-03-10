@@ -4,20 +4,21 @@ body {
 }
 
 h1{
-  font-size: 40px;
+  font-size: 20px;
 }
 
 h2{
-  font-size: 40px;
+  font-size: 20px;
 }
 
 p{
-  font-size: 60px;
+  display:inline-block;
+  font-size: 30px;
+  border-style: outset;
 }
 
 ul.a{
   list-style-type: square;
   text-decoration: underline;
-  text-shadow: 3px 2px black;
-  font-size: 60px;
+  font-size: 30px;
 }
