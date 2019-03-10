@@ -1,5 +1,23 @@
 body {
-  font-family: monospace;
+  font-family: sans-serif;
   background-color:lightblue;
-  text-align: center;
+}
+
+h1{
+  font-size: 40px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+p{
+  font-size: 60px;
+}
+
+ul.a{
+  list-style-type: square;
+  text-decoration: underline;
+  text-shadow: 3px 2px black;
+  font-size: 60px;
 }
