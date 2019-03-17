@@ -2,9 +2,12 @@
  TODO(you): Write the CSS necessary to complete HW1!
 */
 body{
-    text-align:center;
+    /*text-align:center;
+    margin-top:0px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
+    display: flex;
+    justify-content:center;
 }
 
 header{
@@ -26,6 +29,8 @@ div.headerContent{
 
 section.profile{
     margin-top: -50px;
+    /*margin-left: auto;
+    margin-right: auto;*/
     font-family:"Source Sans Pro",sans-serif;
     font-size:18px;
     font-weight:normal;
@@ -39,6 +44,7 @@ div.profilePic{
 }
 
 div.profileContent{
+    display:inline-block;
     padding-bottom: 10px;
     border-bottom:2px #e6e6e6;
 }
