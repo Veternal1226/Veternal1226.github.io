@@ -6,6 +6,7 @@ body{
 }
 
 header{
+    height:500px;
     font-family:"Roboto Slab",serif;
     font-size:36px;
     font-weight:normal;
@@ -17,6 +18,10 @@ section.profile{
     font-size:18px;
     font-weight:normal;
     color: rgb(51,51,51);
+}
+
+div.profilePic{
+    border-radius:50px
 }
 
 span{
