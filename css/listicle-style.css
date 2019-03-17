@@ -7,10 +7,15 @@ body{
 
 header{
     height:500px;
+    background-image: url("images/header.jpg");
+}
+
+div.headerContent{
+    width:780px;
     font-family:"Roboto Slab",serif;
     font-size:36px;
     font-weight:normal;
-    color:white
+    color:white;
 }
 
 section.profile{
