@@ -2,7 +2,8 @@
  TODO(you): Write the CSS necessary to complete HW1!
 */
 body{
-    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 header{
@@ -28,18 +29,22 @@ section.profile{
 }
 
 div.profilePic{
+    width:100px;
     border: 1px solid white;
-    border-radius:50px;
+    border-radius:100%;
 }
 
-span{
-    line-height: 24px;
+div.profileContent{
+    padding-bottom: 10px;
+    border-bottom:2px #e6e6e6;
 }
 
 span.name{
+    line-height: 24px;
     font-weight:bold;
 }
 span.date{
+    line-height: 24px;
     font-weight:italic;
 }
 
